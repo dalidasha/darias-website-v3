@@ -15,5 +15,3 @@ def hello_world():  # put application's code here
 def list_jobs():
     jobs = load_jobs_from_db()
     return jsonify(jobs)
-
-print(os.environ['DB_CONNECTION_STRING'])
